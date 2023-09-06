@@ -1,0 +1,87 @@
+.table-holder {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  font-size: 1.5rem;
+}
+
+th,
+td {
+  padding: 1rem;
+}
+
+th {
+  text-align: start;
+}
+
+td {
+  text-align: center;
+}
+
+.tick,
+.wrong {
+  background-color: #7c460d1e;
+}
+
+.tick {
+  color: green;
+  font-weight: 900;
+}
+
+.wrong {
+  color: red;
+}
+
+.table-subhead,
+.tick,
+.wrong {
+  border-bottom: solid 0.1rem whitesmoke;
+}
+
+.tick > h5 {
+  color: var(--Chocolate);
+  text-align: center;
+}
+
+.table-head,
+.table-subhead {
+  background-color: #7b40005f;
+}
+
+@media screen and (max-width: 1230px) {
+  .table-holder {
+    flex-direction: column;
+    gap: 0;
+  }
+  .second-table-head {
+    display: none;
+  }
+
+  .second-table {
+    width: 100%;
+  }
+  .table-subhead {
+    width: 10rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  tr {
+    font-size: 1rem;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+  }
+  .table-subhead {
+    font-size: 0.8rem;
+  }
+}

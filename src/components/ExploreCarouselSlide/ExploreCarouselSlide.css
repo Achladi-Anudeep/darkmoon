@@ -1,0 +1,27 @@
+.explore-car-slide {
+  margin: 0 1rem;
+  background-color: whitesmoke;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.explore-car-slide > .explore-car-slide-image-holder {
+  width: 100%;
+  height: 50%;
+}
+
+.explore-car-slide > .explore-car-slide-image-holder > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.explore-car-slide > .explore-car-slide-text-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}

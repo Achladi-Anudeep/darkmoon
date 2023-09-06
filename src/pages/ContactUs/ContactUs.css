@@ -1,0 +1,122 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+.contact-us > h1 {
+  color: var(--Primary);
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+}
+
+.contact-us-box {
+  width: 40%;
+  border: solid 1px #590a353b;
+}
+
+.contact-us-box > h2 {
+  border-bottom: solid 1px #590a353b;
+  padding: 2rem;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.contact-us-form > .contact-us-field-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.contact-us-form > .contact-us-field-box > label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contact-us-form > .contact-us-field-box > textarea,
+.contact-us-form > .contact-us-field-box > input {
+  width: 100%;
+  border: solid 1px #590a353b;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+.contact-us-form > .contact-us-field-box > input:focus,
+.contact-us-form > .contact-us-field-box > textarea:focus {
+  outline-color: var(--Primary);
+}
+.contact-us-form > .contact-us-field-box > textarea {
+  height: 15vh;
+  resize: vertical;
+}
+
+.contact-us-file-upload {
+  width: 100%;
+  border: solid 1px #590a353b;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: whitesmoke;
+  color: var(--Primary);
+  cursor: pointer;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contact-us-file-upload > .icon {
+  font-size: 1.3rem;
+}
+
+.contact-us-submit-btn {
+  background-color: var(--Primary);
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.contact-us-submit-btn:hover {
+  background-color: #590a35d0;
+}
+
+.file-to-upload {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border: solid 1px var(--Primary);
+}
+
+.file-to-upload > .file-upload-icon {
+  font-size: 1.1rem;
+  color: gray;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-us-box {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-us-box {
+    width: 100%;
+  }
+}

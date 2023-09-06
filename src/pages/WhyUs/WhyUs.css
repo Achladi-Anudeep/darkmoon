@@ -1,0 +1,119 @@
+.why-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-us-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.why-us-banner > .why-us-banner-text {
+  position: absolute;
+  color: white;
+  padding: 1rem;
+}
+
+.why-us-banner > .why-us-banner-text > h1 {
+  font-size: 2.2rem;
+}
+.why-us-banner > .why-us-banner-text > h2 {
+  font-size: 2rem;
+}
+
+.why-us-banner > img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.why-us-intro {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: 4rem 0;
+  color: var(--Primary);
+}
+.why-us-intro > p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.why-us-card-grid {
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  gap: 1rem;
+  padding: 1rem;
+}
+.why-us-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: whitesmoke;
+}
+.why-us-card > .why-us-card-image {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
+.why-us-card > .why-us-card-text-content {
+  padding: 1rem 0.5rem;
+  letter-spacing: 1px;
+}
+.why-us-card > .why-us-card-text-content > h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--Primary);
+}
+.why-us-card > .why-us-card-text-content > p {
+  color: var(--SlightPrimary);
+  font-weight: 300;
+}
+@media screen and (max-width: 1500px) {
+  .why-us-card-grid {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .why-us-banner {
+    justify-content: center;
+  }
+  .why-us-banner > .why-us-banner-text {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .why-us-banner > .why-us-banner-text > h1 {
+    font-size: 1.5rem;
+  }
+  .why-us-banner > .why-us-banner-text > h2 {
+    font-size: 1rem;
+  }
+  .why-us-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .why-us-intro > p {
+    font-size: 1rem;
+  }
+  .why-us-card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 300px) {
+  .why-us-card-grid {
+    padding: 0.1rem;
+  }
+}

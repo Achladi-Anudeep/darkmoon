@@ -1,0 +1,119 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+.slide-holder {
+  height: 70vh;
+}
+.slide-holder > .slide-image {
+  object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#brain,
+#organic,
+#sports {
+  position: absolute;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#brain,
+#sports,
+#organic {
+  color: #fdf1f8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 20%;
+  width: 60vw;
+  margin-left: 1rem;
+  gap: 0.2rem;
+}
+
+/* #organic {
+  top: 10%;
+  margin-left: 40vw;
+  padding: 1rem;
+  width: 50vw;
+} */
+#sports > h1,
+#brain > h1,
+#organic > h1 {
+  font-size: 4rem;
+}
+#sports > h2,
+#brain > h2,
+#organic > h2 {
+  font-size: 1.4rem;
+  color: var(--Pastle);
+}
+#sports > button,
+#brain > button,
+#organic > button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 2rem;
+  background-color: var(--Chocolate);
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+}
+
+#brain > button:hover,
+#sports > button:hover,
+#organic > button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 1370px) {
+  #brain > h1,
+  #sports > h1,
+  #organic > h1 {
+    font-size: 2rem;
+  }
+  #brain > h2,
+  #sports > h2,
+  #organic > h2 {
+    font-size: 1rem;
+  }
+  #sports > button,
+  #brain > button,
+  #organic > button {
+    font-size: 1.5rem;
+  }
+  #sports {
+    top: 25%;
+  }
+  .slide-holder > .slide-image {
+    object-position: 80% 20%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .slide-holder > .slide-image {
+    object-position: 90% 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #brain,
+  #sports,
+  #organic {
+    width: 100vw;
+    padding: 0.5rem;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,31 @@
+.next-arrow,
+.prev-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: var(--Secondary);
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  position: absolute;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1;
+  transition: all ease-in-out 200ms;
+}
+
+.next-arrow:hover,
+.prev-arrow:hover {
+  transform: scale(1.05);
+}
+
+.next-arrow {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.prev-arrow {
+  bottom: 1rem;
+  right: 5rem;
+}
