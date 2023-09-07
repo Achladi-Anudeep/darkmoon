@@ -34,7 +34,7 @@ const LearnMore = () => {
   ];
   return (
     <div className="learn-more">
-      <div className="learn-more-header-content">
+      <div className="learn-more-header-content" data-aos="zoom-in">
         <h1>A Blend of Indulgence and Wellness</h1>
         <p>
           If you're intrigued by the magic of our special chocolate powder,
@@ -48,7 +48,11 @@ const LearnMore = () => {
       </div>
       <div className="info-section">
         {infoData.map((r, i) => (
-          <div key={i} className="info-section-text">
+          <div
+            data-aos={(1 + i) % 2 === 0 ? "fade-right" : "fade-left"}
+            key={i}
+            className="info-section-text"
+          >
             <h3>{r.title}</h3>
             <p>{r.desc}</p>
           </div>

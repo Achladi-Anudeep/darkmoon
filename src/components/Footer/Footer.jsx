@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DarkMoonLogo from "../../assets/Images/DarkMoonLogo.webp";
+import DarkMoonLogo from "../../assets/Images/DarkmoonLogoTransparantBgWithoutBrandName.png";
 import {
   AiOutlineDoubleRight,
   AiFillInstagram,
@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-first-sec">
         <h1>
-          <img src={DarkMoonLogo} className="footer-logo" />
+          <img src={DarkMoonLogo} className="footer-logo" alt="darkmoon-logo" />
           Dark Moon
         </h1>
         <button>

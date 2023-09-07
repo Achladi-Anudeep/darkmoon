@@ -6,7 +6,7 @@ import { WhyUsGridData } from "../../assets/Images/ImageExports";
 const WhyUs = () => {
   return (
     <div className="why-us">
-      <div className="why-us-banner">
+      <div className="why-us-banner" data-aos="zoom-out">
         <div className="why-us-banner-text">
           <h1>Discover the Magic of Our Special Chocolate Powder. </h1>
           <h2>Unparalleled Taste and Nourishing Excellence.</h2>
@@ -14,7 +14,7 @@ const WhyUs = () => {
 
         <img src={WhyUsBanner} alt="drink" />
       </div>
-      <div className="why-us-intro">
+      <div data-aos="zoom-in" className="why-us-intro">
         <p>
           "At our company, we take immense pride in crafting chocolate powder
           that goes beyond ordinary. Our special chocolate powder is a result of

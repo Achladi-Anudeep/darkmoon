@@ -59,7 +59,7 @@ const NTable = () => {
             </td>
           </tr>
           <tr>
-            <th className="table-subhead">PolyPhenois</th>
+            <th className="table-subhead">PolyPhenols</th>
             <td className="tick">
               <FiCheck />
             </td>

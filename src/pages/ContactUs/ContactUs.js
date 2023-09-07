@@ -28,8 +28,8 @@ const ContactUs = () => {
   };
   return (
     <div className="contact-us">
-      <h1>Contact Us</h1>
-      <div className="contact-us-box">
+      <h1 data-aos="fade-right">Contact Us</h1>
+      <div data-aos="fade-left" className="contact-us-box">
         <h2>Contact Us</h2>
         <form className="contact-us-form">
           <div className="contact-us-field-box">

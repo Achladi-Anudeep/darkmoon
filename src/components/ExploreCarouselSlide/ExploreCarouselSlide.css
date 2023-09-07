@@ -1,7 +1,7 @@
 .explore-car-slide {
   margin: 0 1rem;
   background-color: whitesmoke;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
@@ -9,7 +9,7 @@
 
 .explore-car-slide > .explore-car-slide-image-holder {
   width: 100%;
-  height: 50%;
+  height: 60%;
 }
 
 .explore-car-slide > .explore-car-slide-image-holder > img {
