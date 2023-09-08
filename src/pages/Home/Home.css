@@ -265,14 +265,8 @@
   margin: 0em 0 6rem 0;
 }
 .sixth-sec-icon {
-  background-color: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: var(--Chocolate);
-  margin-bottom: 1rem;
 }
 .sixth-sec-container {
   position: relative;
@@ -318,7 +312,7 @@
 }
 
 .sixth-content-title > h1 {
-  font-size: 2.2rem;
+  font-size: 3rem;
   color: var(--Primary);
   text-align: center;
 }
@@ -328,7 +322,8 @@
   row-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  padding: 5rem;
+  padding: 0 5rem;
+  margin-bottom: 6rem;
 }
 
 .sixth-description-left,

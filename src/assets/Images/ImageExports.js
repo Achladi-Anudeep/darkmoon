@@ -30,25 +30,26 @@ import WhyUsVersatility from "./WhyUsPage/WhyUsVersatility.webp";
 
 export const HomeFirstCarouseldata = [
   {
-    imageSource: HomeOrganicCoco,
-    title: "organic",
-    textHead: "Organic Chocolate Powder",
-    textDesc:
-      "Delivers unmatched health benifits crafted with organic ingredients using cutting edge science to nourish your skin glow like never before.",
-  },
-  {
     imageSource: HomeBrainChoco,
     title: "brain",
-    textHead: "Premium Chocolate Powder",
+    textHead: "Premium Cocoa Elixir",
     textDesc:
       "Experience the Luxurious blend of finest cocoa beans and elevate your senses.",
   },
   {
+    imageSource: HomeOrganicCoco,
+    title: "organic",
+    textHead: "Pure Organic Bliss",
+    textDesc:
+      "Our organic darkmoon is completely guilt free and only unique product which doesn't contain any Artificial Sweetners or Preservatives or Acidity Regulators.",
+  },
+
+  {
     imageSource: HomeSportsGirlChoco,
     title: "sports",
-    textHead: "Nutritious Chocolate Powder",
+    textHead: "Nutri Rich Blend",
     textDesc:
-      "Our powerful blend of protein,vitamins and amino acids,anti-oxidants fuel your performance of brain health.",
+      "Our Darkmoon provides a delightful combination of anti-oxidants and gentle minerals like magnesium promoting brain health and sustained energy.",
   },
 ];
 
@@ -57,19 +58,19 @@ export const HomeFirstSecData = [
     imageSource: HomeEnergyBooster,
     title: "energy boooster",
     heading: "Energy Booster",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of ",
+    desc: "A Single darkmoon glass fuels your day with a revital burst of energy.",
   },
   {
     imageSource: HomeOrganic,
     title: "Organic Cocoa",
     heading: "Organic",
-    desc: "using 'Content here, content here', making it look like readable En",
+    desc: "Enjoy the pure,natural goodness of organic cocoa powder,guilt free & full of flavour.",
   },
   {
     imageSource: HomeGreatTaste,
     title: "Tasty choclate flavoured drink",
     heading: "Great Taste",
-    desc: "their infancy. Various versions have evolved over the years,",
+    desc: "Immerse yourself in the extraordinary taste sensation of darkmoon - a true 'wow' for your palate.",
   },
 ];
 
@@ -77,7 +78,7 @@ export const HomeHealthBenefitsData = [
   {
     title: "Savour +",
     subtitle: "Rich Cocoa",
-    desc: "Extracted whey from the whole milk which contains all the essential amino acids.",
+    desc: "Darkmoon contains minerals like magnesium which supports muscle & nerve function along with great taste.",
     class: "protein",
     image: HomeSavour,
   },
@@ -108,12 +109,12 @@ export const ExploreCarouselData = [
   {
     image: ExploreKidDoc,
     title: "Nutritionally Enriched Delight",
-    desc: "We believe in indulgence with a purpose. Our Hot Chocolate Elixir is not just a treat for your taste buds.it's a nourishing elixir for your body. Packed with antioxidants, vitamins, and minerals,this delightful elixir provides you with the energy and nutrients needed to conquer the day. A guilt-free pleasure that fuels your well-being.",
+    desc: "We believe in indulgence with a purpose. Our colate Elixir is not just a treat for your taste buds.it's a nourishing elixir for your body. Packed with antioxidants, vitamins, and minerals,this delightful elixir provides you with the energy and nutrients needed to conquer the day. A guilt-free pleasure that fuels your well-being.",
   },
   {
     image: ExplorePlantPowered,
     title: "Embrace Plant-Powered Goodness",
-    desc: "We cater to diverse tastes and preferences, which is why our Hot Chocolate Elixir is thoughtfully crafted  using only plant-based ingredients. Savor the creaminess of almond milk and coconut cream, elevating  your hot chocolate experience to a whole new level. It's the perfect choice for those seeking a vegan-friendly, lactose-free, and cholesterol-free option.",
+    desc: "We cater to diverse tastes and preferences, which is why our Darkmoon is thoughtfully crafted  using only plant-based ingredients. Added raw brown sugar,wheat and barley , elevating  your hot chocolate experience to a whole new level. It's the perfect choice for those seeking a vegan-friendly, lactose-free, and cholesterol-free option.",
   },
   {
     image: ExploreGirlExcercise,
@@ -123,12 +124,12 @@ export const ExploreCarouselData = [
   {
     image: ExploreOldCouple,
     title: "Sweetened Smartly - Low Glycemic Impact",
-    desc: "We believe in smart choices for sweet indulgence. Our Hot Chocolate Elixir is thoughtfully sweetened with  unrefined coconut sugar and a touch of pure maple syrup. Embrace the sweetness without compromising  your health as it ensures a low glycemic impact.",
+    desc: "We believe in smart choices for sweet indulgence. Our Hot Chocolate Elixir is thoughtfully sweetened with  unrefined coconut sugar. Embrace the sweetness without compromising  your health as it ensures a low glycemic impact.",
   },
   {
     image: ExploreKids,
     title: "Immune-Supporting Magic",
-    desc: "Prepare your body to take on the world with immune-boosting magic from medicinal mushrooms like  reishi and chaga. These extraordinary mushrooms fortify your defenses, helping you stay resilient year-round.",
+    desc: "Prepare your body to take on the world with immune-boosting magic from  Wheat,Barley and Oats. These extraordinary ingredients fortify your defenses, helping you stay resilient year-round.",
   },
 
   {

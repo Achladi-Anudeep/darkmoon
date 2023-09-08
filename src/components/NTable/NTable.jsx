@@ -13,15 +13,7 @@ const NTable = () => {
             <th>Our Drink</th>
             <th>Missouts</th>
           </tr>
-          <tr>
-            <th className="table-subhead">Insulin</th>
-            <td className="tick">
-              <FiCheck />
-            </td>
-            <td className="wrong">
-              <RxCross1 />
-            </td>
-          </tr>
+
           <tr>
             <th className="table-subhead">Iron</th>
             <td className="tick">
@@ -68,7 +60,26 @@ const NTable = () => {
             </td>
           </tr>
           <tr>
-            <th className="table-subhead">Manganese</th>
+            <th className="table-subhead">Acidity Regulators</th>
+            <td className="wrong">
+              <RxCross1 />
+            </td>
+            <td className="tick">
+              <FiCheck />
+            </td>
+          </tr>
+
+          <tr>
+            <th className="table-subhead">Artificial Sweetners</th>
+            <td className="wrong">
+              <RxCross1 />
+            </td>
+            <td className="tick">
+              <FiCheck />
+            </td>
+          </tr>
+          <tr>
+            <th className="table-subhead">Pure Organic</th>
             <td className="tick">
               <FiCheck />
             </td>
@@ -77,12 +88,12 @@ const NTable = () => {
             </td>
           </tr>
           <tr>
-            <th className="table-subhead">Phosporous</th>
-            <td className="tick">
-              <FiCheck />
-            </td>
+            <th className="table-subhead">Natural Colors</th>
             <td className="wrong">
               <RxCross1 />
+            </td>
+            <td className="tick">
+              <FiCheck />
             </td>
           </tr>
         </tbody>
@@ -104,12 +115,12 @@ const NTable = () => {
             </td>
           </tr>
           <tr>
-            <th className="table-subhead">Selenium</th>
-            <td className="tick">
-              <FiCheck />
-            </td>
+            <th className="table-subhead">Preservatives</th>
             <td className="wrong">
               <RxCross1 />
+            </td>
+            <td className="tick">
+              <FiCheck />
             </td>
           </tr>
           <tr>
@@ -142,10 +153,10 @@ const NTable = () => {
           <tr>
             <th className="table-subhead">Energy</th>
             <td className="tick">
-              <h5>&gt; 20 gms</h5>
+              <h5>High</h5>
             </td>
             <td className="wrong">
-              <h5>&lt; 20 gms</h5>
+              <h5>Moderate</h5>
             </td>
           </tr>
           <tr>

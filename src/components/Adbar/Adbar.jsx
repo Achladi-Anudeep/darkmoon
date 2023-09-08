@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./Adbar.css";
 
 const texts = [
-  "Enim veritatis minima iure velit deleniti quo quasi et illo.",
-  "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+  "Sip High and Thrive High with our Dark Moon.",
+  "Tune your mind with our Dark Moon.",
 ];
 
 function Adbar() {

@@ -126,16 +126,12 @@ const Home = () => {
             <div className="sixth-description">
               <div className="sixth-description-left">
                 <div className="sixth-description-content">
-                  <button alt="focus icon" className="sixth-sec-icon">
-                    <GiBrain />
-                  </button>
+                  <GiBrain className="sixth-sec-icon" />
                   <h1>Better Focus</h1>
                   <p>Increase alertness cognition & mental focus</p>
                 </div>
                 <div className="sixth-description-content">
-                  <button alt="focus icon" className="sixth-sec-icon">
-                    <MdHealthAndSafety />
-                  </button>
+                  <MdHealthAndSafety className="sixth-sec-icon" />
                   <h1>Anti Inflamatory</h1>
                   <p>
                     Bolster your immune system and help prevent the common cold
@@ -145,16 +141,12 @@ const Home = () => {
               <div />
               <div className="sixth-description-right">
                 <div className="sixth-description-content">
-                  <button alt="focus icon" className="sixth-sec-icon">
-                    <GiBiceps />
-                  </button>
+                  <GiBiceps className="sixth-sec-icon" />
                   <h1>Energy Booster</h1>
                   <p>Increase your muscle health with our protein punch</p>
                 </div>
                 <div className="sixth-description-content">
-                  <button alt="focus icon" className="sixth-sec-icon">
-                    <MdTagFaces />
-                  </button>
+                  <MdTagFaces className="sixth-sec-icon" />
                   <h1>Skin Glow</h1>
                   <p>Anti-oxidants on drid ensure your skin radiance</p>
                 </div>

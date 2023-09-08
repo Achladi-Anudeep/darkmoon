@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../../assets/Images/DarkMoonLogo.webp";
+import Logo from "../../assets/Images/DarkmoonLogoTransparantBgWithoutBrandName.png";
 import { GlobalContext } from "../../contexts/Global/GlobalContext";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { ScrollToTop } from "../../functions/ScrollToTop";
