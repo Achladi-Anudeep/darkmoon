@@ -9,11 +9,8 @@ const WhyUs = () => {
       <div className="why-us-banner" data-aos="zoom-out">
         <div className="why-us-banner-text">
           <h1>Unveil the Enchantment of Our Unique Chocolate Powder.</h1>
-          {/* <h1>Discover the Magic of Our Special Chocolate Powder. </h1> */}
           <h2>Exceptional Flavor and Nourishing Excellence.</h2>
-          {/* <h2>Unparalleled Taste and Nourishing Excellence.</h2> */}
         </div>
-
         <img src={WhyUsBanner} alt="drink" />
       </div>
       <div data-aos="zoom-in" className="why-us-intro">
@@ -24,16 +21,7 @@ const WhyUs = () => {
           an unwavering commitment to quality. From selecting the finest cocoa
           beans to employing a distinct manufacturing process, our chocolate
           powder distinguishes itself as a premium blend, ensuring incomparable
-          flavor and nourishing excellence."
         </p>
-        {/* <p>
-          "At our company, we take immense pride in crafting chocolate powder
-          that goes beyond ordinary. Our special chocolate powder is a result of
-          careful selection, superior ingredients, and an unwavering commitment
-          to quality. From the finest cocoa beans to a unique manufacturing
-          process, our chocolate powder stands out as a premium blend that
-          promises unparalleled taste and nourishing excellence."
-        </p> */}
       </div>
       <div className="why-us-card-grid">
         {WhyUsGridData.map((r, i) => (

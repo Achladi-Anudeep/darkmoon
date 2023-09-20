@@ -31,7 +31,6 @@ const Home = () => {
     <div className="home">
       <FirstCarousel />
       <div className="first-section">
-        {/* <h1>Why Choose Dark Moon ?</h1> */}
         <h1>What Sets Dark Moon Apart?</h1>
         <div className="first-section-b">
           {HomeFirstSecData.map((r, i) => (
@@ -54,7 +53,6 @@ const Home = () => {
       </div>
       <div className={`second-section ${HomeHealthBenefitsData[temp].class}`}>
         <div className="second-section-a">
-          {/* <h1>Explore the Health Benefits</h1> */}
           <h1>Discover the Health Benefits</h1>
         </div>
         <div className="second-section-b">
@@ -131,7 +129,6 @@ const Home = () => {
                   <GiBrain className="sixth-sec-icon" />
                   <h1>Better Focus</h1>
                   <p>Boost Alertness, Cognition, and Mental Focus</p>
-                  {/* <p>Increase alertness cognition & mental focus</p> */}
                 </div>
                 <div className="sixth-description-content">
                   <MdHealthAndSafety className="sixth-sec-icon" />
@@ -139,9 +136,6 @@ const Home = () => {
                   <p>
                     Strengthen Your Immune System to Prevent the Common Cold
                   </p>
-                  {/* <p>
-                    Bolster your immune system and help prevent the common cold
-                  </p> */}
                 </div>
               </div>
               <div />
@@ -150,7 +144,6 @@ const Home = () => {
                   <GiBiceps className="sixth-sec-icon" />
                   <h1>Energy Booster</h1>
                   <p>Enhance Muscle Health with Our Protein Punch</p>
-                  {/* <p>Increase your muscle health with our protein punch</p> */}
                 </div>
                 <div className="sixth-description-content">
                   <MdTagFaces className="sixth-sec-icon" />
@@ -169,7 +162,6 @@ const Home = () => {
                   <p>
                     Experience Glowing Skin with Our Power-Packed Antioxidants
                   </p>
-                  {/* <p>Power pack of anti oxidats helps skin glow</p> */}
                 </div>
                 <div className="sixth-description-content">
                   <h1>Vitamins</h1>
@@ -177,10 +169,6 @@ const Home = () => {
                     Fortify Your Immune System with Vitamins B1, B2, B3, B6, B9,
                     K, and E
                   </p>
-                  {/* <p>
-                    Vitamin B1,B2,B3,B6,B9 and Vitamin K,E for your immune
-                    system
-                  </p> */}
                 </div>
               </div>
               <div />
@@ -188,12 +176,10 @@ const Home = () => {
                 <div className="sixth-description-content">
                   <h1>Polyphenols</h1>
                   <p>Balance LDL and Increase HDL with Our Assistance</p>
-                  {/* <p>Helps to regulate the LDL by increasing HDL </p> */}
                 </div>
                 <div className="sixth-description-content">
                   <h1>Energy Booster</h1>
                   <p>Accelerate and Enhance Muscle Recovery</p>
-                  {/* <p>This helps muscle recovery fast and complete</p> */}
                 </div>
               </div>
             </div>

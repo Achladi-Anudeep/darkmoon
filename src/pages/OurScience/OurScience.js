@@ -16,20 +16,20 @@ const OurScience = () => {
           className="science-first-sec-text-content"
         >
           <h2>
-            Indulge in the Exquisite DARK MOON Hot Chocolate - A Scientifically
-            Crafted Blend of Premium Dark Cocoa and Natural Brown Sugar
+            Enjoy the Exquisite DARK MOON Hot Chocolate - A Scientifically
+            Crafted Fusion of Premium Dark Cocoa and Natural Brown Sugar
           </h2>
           <p>
-            Experience the indulgence of DARK MOON, an exquisite hot chocolate
-            elixir meticulously crafted to delight your taste buds and provide a
-            nourishing experience. Our secret lies in the perfect blend of
-            premium dark cocoa and natural brown sugar, creating a symphony of
-            flavors that will leave you craving more. Prepare to embark on a
-            journey of pleasure and discover the science-backed benefits of this
-            delightful concoction. Numerous studies and research papers attest
-            to the health benefits of dark cocoa and the nutritional advantages
-            of natural brown sugar, validating the exceptional taste and science
-            behind DARK MOON.
+            Indulge in the Luxurious Experience of DARK MOON, an Exquisite Hot
+            Chocolate Elixir Meticulously Crafted to Delight Your Taste Buds and
+            Nourish Your Senses. Our Secret Resides in the Impeccable Fusion of
+            Premium Dark Cocoa and Natural Brown Sugar, Creating a Harmonious
+            Symphony of Flavors That Will Leave You Yearning for More. Prepare
+            to Embark on a Journey of Pleasure and Uncover the Science-Backed
+            Advantages of This Delightful Concoction. Numerous Studies and
+            Research Papers Validate the Health Benefits of Dark Cocoa and the
+            Nutritional Advantages of Natural Brown Sugar, Affirming the
+            Extraordinary Flavor and Scientific Foundation of DARK MOON
           </p>
         </div>
         <div
@@ -45,7 +45,6 @@ const OurScience = () => {
         {OurScienceArticlesData.map((r, i) => (
           <div
             key={i}
-            // className="article-box"
             className={
               r.articleNumber % 2 ? "article-box" : "article-box reverse-row"
             }
@@ -69,11 +68,11 @@ const OurScience = () => {
           </div>
         ))}
         <p>
-          These articles provide scientific evidence supporting the key
-          ingredients of DARK MOON, reinforcing the elixir's commitment to
-          combining taste and nourishment for an exceptional hot chocolate
-          experience. Embrace the pleasure and science-backed benefits of DARK
-          MOON as you indulge in each delightful sip.
+          These articles present Scientific Evidence Affirming the Significance
+          of DARK MOON's Key Ingredients, Strengthening the Elixir's Dedication
+          to Fusing Flavor and Nourishment for an Unparalleled Hot Chocolate
+          Experience. Embrace the Delight and Science-Backed Advantages of DARK
+          MOON as You Savor Every Exquisite Sip
         </p>
       </section>
     </div>
