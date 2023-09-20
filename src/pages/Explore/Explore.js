@@ -42,11 +42,26 @@ const Explore = () => {
       <section className="explore-first-section">
         <img data-aos="fade-right" src={DelightDrink} alt="delight-drink" />
         <div data-aos="fade-left" className="explore-first-sec-text-content">
-          <h2>
+          <h2>Heavenly Hot Chocolate Elixir: Nourishing Sensory Delight</h2>
+          {/* <h2>
             Heavenly Hot Chocolate Elixir - Nourishing Indulgence for Your
             Senses
-          </h2>
+          </h2> */}
           <p>
+            Experience a Transformative Dark Moon Drink Journey! Our Heavenly
+            Hot Chocolate Elixir Goes Beyond a Beverage; It's an Exceptional
+            Creation Crafted to Delight Your Taste Buds and Nourish Your Body.
+            Immerse Yourself in the Decadent Fusion of Flavors, Embrace
+            Plant-Powered Goodness, and Enhance Your Well-Being with Every Sip.
+            Bid Farewell to Ordinary Hot Chocolate and Embrace a New Level of
+            Delight and Nourishment. Dive into a Hot Chocolate Experience Unlike
+            Any Other with Our Heavenly Hot Chocolate Elixir. Elevate Your
+            Indulgence and Nourish Your Body with a Symphony of Flavors and
+            Wholesome Ingredients. The Journey to Extraordinary Begins with
+            Every Cup. Pamper Yourself and Embark on a Transformative Hot
+            Chocolate Adventure Today!
+          </p>
+          {/* <p>
             Welcome to the ultimate destination for a transformative Dark Moon
             drink experience. Our Heavenly Hot Chocolate Elixir is more than
             just a beverage; it's an extraordinary elixir meticulously crafted
@@ -60,7 +75,7 @@ const Explore = () => {
             symphony of flavors and wholesome ingredients. The journey to
             extraordinary begins with each cup. Treat yourself and embark on a
             transformative hot chocolate adventure today!
-          </p>
+          </p> */}
         </div>
       </section>
       <div className="explore-carousel">

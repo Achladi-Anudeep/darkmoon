@@ -33,7 +33,13 @@ const Footer = () => {
         <h3>Connect with us on</h3>
         <div className="social-icons">
           <button>
-            <ImFacebook />
+            <a
+              href="https://www.facebook.com/profile.php?id=61551002797885"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImFacebook />
+            </a>
           </button>
           <button>
             <a

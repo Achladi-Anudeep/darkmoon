@@ -37,7 +37,7 @@ export const HomeFirstCarouseldata = [
   {
     imageSource: HomeBrainChoco,
     title: "brain",
-    textHead: "Premium Choclate Powder",
+    textHead: "Premium Chocolate Powder",
     textDesc:
       "Indulge in the Exquisite Harmony of the Finest Cocoa Beans, Elevating Your Senses Sustainably.",
   },
