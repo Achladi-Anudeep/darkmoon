@@ -36,10 +36,22 @@ const Footer = () => {
             <ImFacebook />
           </button>
           <button>
-            <AiFillInstagram />
+            <a
+              href="https://www.instagram.com/darkmoon.in/?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillInstagram />
+            </a>
           </button>
           <button>
-            <AiOutlineTwitter />
+            <a
+              href="https://twitter.com/darkmoon_in"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiOutlineTwitter />
+            </a>
           </button>
         </div>
       </div>

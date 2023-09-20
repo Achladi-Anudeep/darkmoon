@@ -87,15 +87,6 @@ const NTable = () => {
               <RxCross1 />
             </td>
           </tr>
-          <tr>
-            <th className="table-subhead">Natural Colors</th>
-            <td className="wrong">
-              <RxCross1 />
-            </td>
-            <td className="tick">
-              <FiCheck />
-            </td>
-          </tr>
         </tbody>
       </table>
       <table className="second-table">

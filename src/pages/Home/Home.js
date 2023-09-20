@@ -4,13 +4,13 @@ import { FirstCarousel, Testimonial, NTable } from "../../components";
 import ChoclateDrink from "../../assets/Images/GlassOfDrink.webp";
 import UniversityData from "../../assets/Jsons/Universities.json";
 import Slider from "react-slick";
-import FirstTestimonialsData from "../../assets/Jsons/FirstTestimonials.json";
 import { GiBrain } from "react-icons/gi";
 import { GiBiceps } from "react-icons/gi";
 import { MdHealthAndSafety, MdTagFaces } from "react-icons/md";
 import {
   HomeFirstSecData,
   HomeHealthBenefitsData,
+  HomeTestimonials,
 } from "../../assets/Images/ImageExports";
 
 const Home = () => {
@@ -102,7 +102,7 @@ const Home = () => {
         <h1>Don't take our word for it</h1>
         <div className="fifth-sec-carousel">
           <Slider {...settingsTestimonials}>
-            {FirstTestimonialsData.map((r, i) => (
+            {HomeTestimonials.map((r, i) => (
               <Testimonial
                 key={i}
                 image={r.profilePic}

@@ -8,6 +8,11 @@ import HomePerformance from "./HomePage/Performance.webp";
 import HomeBrainChoco from "./HomePage/Brain-Boy-Banner.webp";
 import HomeSportsGirlChoco from "./HomePage/Sports-Girl-In-Chocolate-Banner.webp";
 import HomeOrganicCoco from "./HomePage/Organic-Banner.webp";
+import HomeGurkiranKaur from "./HomePage/GurkiranKaur.jpg";
+import HomeRajeshKumar from "./HomePage/RajeshKumar.jpg";
+import HomeAadarshiniIyer from "./HomePage/AadarshiniIyer.jpg";
+import HomeParitoshThakur from "./HomePage/ParitoshThakur.jpg";
+import HomeMahnoorKhan from "./HomePage/MahnoorKhan.jpg";
 import ExploreKidDoc from "./ExplorePage/Kid-And-Doctor.webp";
 import ExplorePlantPowered from "./ExplorePage/Nuts-And-Coconuts.webp";
 import ExploreGirlExcercise from "./ExplorePage/Girl-Excercising.webp";
@@ -32,16 +37,16 @@ export const HomeFirstCarouseldata = [
   {
     imageSource: HomeBrainChoco,
     title: "brain",
-    textHead: "Premium Cocoa Elixir",
+    textHead: "Premium Choclate Powder",
     textDesc:
-      "Experience the Luxurious blend of finest cocoa beans and elevate your senses.",
+      "Indulge in the Exquisite Harmony of the Finest Cocoa Beans, Elevating Your Senses Sustainably.",
   },
   {
     imageSource: HomeOrganicCoco,
     title: "organic",
     textHead: "Pure Organic Bliss",
     textDesc:
-      "Our organic darkmoon is completely guilt free and only unique product which doesn't contain any Artificial Sweetners or Preservatives or Acidity Regulators.",
+      "Our Organic Dark Moon: Guilt-Free, Uniquely Free from Artificial Sweeteners, Preservatives, or Acidity Regulators.",
   },
 
   {
@@ -49,7 +54,7 @@ export const HomeFirstCarouseldata = [
     title: "sports",
     textHead: "Nutri Rich Blend",
     textDesc:
-      "Our Darkmoon provides a delightful combination of anti-oxidants and gentle minerals like magnesium promoting brain health and sustained energy.",
+      "Our Dark Moon Blend Offers a Delightful Fusion of Antioxidants and Nourishing Minerals, Such as Magnesium, Promoting Brain Health and Sustainable Energy.",
   },
 ];
 
@@ -58,19 +63,19 @@ export const HomeFirstSecData = [
     imageSource: HomeEnergyBooster,
     title: "energy boooster",
     heading: "Energy Booster",
-    desc: "A Single darkmoon glass fuels your day with a revital burst of energy.",
+    desc: "A Single Glass of Dark Moon Fuels Your Day with a Revitalizing Burst of Energy.",
   },
   {
     imageSource: HomeOrganic,
     title: "Organic Cocoa",
     heading: "Organic",
-    desc: "Enjoy the pure,natural goodness of organic cocoa powder,guilt free & full of flavour.",
+    desc: "Savor the Pure, Natural Goodness of Organic Cocoa Powder - Guilt-Free and Bursting with Flavor.",
   },
   {
     imageSource: HomeGreatTaste,
     title: "Tasty choclate flavoured drink",
     heading: "Great Taste",
-    desc: "Immerse yourself in the extraordinary taste sensation of darkmoon - a true 'wow' for your palate.",
+    desc: "Immerse Yourself in the Extraordinary Taste Sensation of Dark Moon – a Genuine 'Wow' for Your Palate.",
   },
 ];
 
@@ -78,30 +83,68 @@ export const HomeHealthBenefitsData = [
   {
     title: "Savour +",
     subtitle: "Rich Cocoa",
-    desc: "Darkmoon contains minerals like magnesium which supports muscle & nerve function along with great taste.",
+    desc: "Dark Moon's Exceptional Taste is Enriched with Minerals, Like Magnesium, Supporting Muscle and Nerve Function.",
     class: "protein",
     image: HomeSavour,
   },
   {
     title: "Beauty +",
     subtitle: "Anti oxidants",
-    desc: "With ingredients like coconut sugar & organic cocoa,This drink will leave you with Healthy & Glowing skin.",
+    desc: "With Ingredients like Coconut Sugar and Organic Cocoa, This Beverage Will Leave You with Healthy, Glowing Skin.",
     class: "beauty",
     image: HomeBeauty,
   },
   {
     title: "Brain +",
     subtitle: "Flavanoids",
-    desc: "Boosts your brain by producing the feel good chemicals like endorphins and keeps you alert like sportsmen.",
+    desc: "Boosts Your Brain by Stimulating the Production of Feel-Good Chemicals, Such as Endorphins, and Keeps You Alert, Just like Professional Athletes.",
     class: "brain",
     image: HomeBrain,
   },
   {
     title: "Performance +",
     subtitle: "Adreniline",
-    desc: "With essential nutrients and a dash of rich cocoa provides clean energy,Flavour and ultimate nourishment.",
+    desc: "Enriched with Essential Nutrients and a Touch of Rich Cocoa, This Provides Clean Energy, Exceptional Flavor, and Ultimate Nourishment.",
     class: "performance",
     image: HomePerformance,
+  },
+];
+
+export const HomeTestimonials = [
+  {
+    name: "GurKiran Kaur",
+    review:
+      "As a busy mom, I cherish my serene moments with a soothing cup of Darkmoon. It's my personal retreat from the hustle and bustle of daily life—a delightful indulgence that brings warmth to my heart.",
+    profilePic: HomeGurkiranKaur,
+    altTitle: "gurkiran profile picture",
+  },
+  {
+    name: "Rajesh Kumar",
+    review:
+      "I used to battle a significant coffee addiction, but had to quit because of severe inflammation. Darkmoon not only provided me with increased energy but also played a crucial role in helping me overcome it.",
+    profilePic: HomeRajeshKumar,
+    altTitle: "rajesh profile picture",
+  },
+  {
+    name: "Aadarshini Iyer",
+    review:
+      "As someone who prioritizes health, I appreciate that Darkmoon provides a guilt-free indulgence. It strikes the perfect balance between flavor and nutrition.",
+    profilePic: HomeAadarshiniIyer,
+    altTitle: "aadrshini profile picture",
+  },
+  {
+    name: "Paritosh Thakur",
+    review:
+      "I'm pleasantly surprised by a company that offers me a delicious drink without any artificial sweeteners, preservatives, or acidity regulators.",
+    profilePic: HomeParitoshThakur,
+    altTitle: "paritosh profile picture",
+  },
+  {
+    name: "Mahnoor Khan",
+    review:
+      "Once you try Darkmoon, prepare to be captivated by its irresistible flavor. My day doesn't begin without a cup of Darkmoon.",
+    profilePic: HomeMahnoorKhan,
+    altTitle: "mahnoor profile picture",
   },
 ];
 
@@ -109,43 +152,43 @@ export const ExploreCarouselData = [
   {
     image: ExploreKidDoc,
     title: "Nutritionally Enriched Delight",
-    desc: "We believe in indulgence with a purpose. Our colate Elixir is not just a treat for your taste buds.it's a nourishing elixir for your body. Packed with antioxidants, vitamins, and minerals,this delightful elixir provides you with the energy and nutrients needed to conquer the day. A guilt-free pleasure that fuels your well-being.",
+    desc: "We're Firm Believers in Purposeful Indulgence. Our Chocolat Elixir isn't Merely a Treat for Your Taste Buds; It's a Nourishing Elixir for Your Body. Laden with Antioxidants, Vitamins, and Minerals, this Delightful Elixir Offers the Energy and Nutrients Required to Triumph Over the Day. It's a Guilt-Free Pleasure that Fuels Your Overall Well-Being.",
   },
   {
     image: ExplorePlantPowered,
     title: "Embrace Plant-Powered Goodness",
-    desc: "We cater to diverse tastes and preferences, which is why our Darkmoon is thoughtfully crafted  using only plant-based ingredients. Added raw brown sugar,wheat and barley , elevating  your hot chocolate experience to a whole new level. It's the perfect choice for those seeking a vegan-friendly, lactose-free, and cholesterol-free option.",
+    desc: "We Embrace Diverse Tastes and Preferences, Which Is Why Our Dark Moon Is Meticulously Crafted Using Exclusively Plant-Based Ingredients. Enriched with Raw Brown Sugar, Wheat, and Barley, It Elevates Your Hot Chocolate Experience to New Heights. It's the Ideal Choice for Those in Search of a Vegan-Friendly, Lactose-Free, and Cholesterol-Free Option.",
   },
   {
     image: ExploreGirlExcercise,
     title: "Infused with Energy-Boosting Adaptogens",
-    desc: "Discover a revitalizing boost with our carefully selected adaptogens. The addition of maca and  ashwagandha enhances the elixir's potential, reducing stress, boosting focus, and promoting overall  well-being. Elevate your daily routine with a warm cup of vitality.",
+    desc: "Unearth a Rejuvenating Boost Through Our Thoughtfully Chosen Adaptogens. The Incorporation of Pure Organic Cocoa Maximizes the Elixir's Capacity, Diminishing Stress, Amplifying Concentration, and Fostering Holistic Well-Being. Elevate Your Everyday Ritual with a Steaming Cup of Vitality.",
   },
   {
     image: ExploreOldCouple,
     title: "Sweetened Smartly - Low Glycemic Impact",
-    desc: "We believe in smart choices for sweet indulgence. Our Hot Chocolate Elixir is thoughtfully sweetened with  unrefined coconut sugar. Embrace the sweetness without compromising  your health as it ensures a low glycemic impact.",
+    desc: "We're Committed to Intelligent Choices for Sweet Delight. Our Hot Chocolate Elixir is Carefully Sweetened with Unrefined Coconut Sugar. Embrace the Sweetness Without Sacrificing Your Health, as It Guarantees a Low Glycemic Impact.",
   },
   {
     image: ExploreKids,
     title: "Immune-Supporting Magic",
-    desc: "Prepare your body to take on the world with immune-boosting magic from  Wheat,Barley and Oats. These extraordinary ingredients fortify your defenses, helping you stay resilient year-round.",
+    desc: "Get Your Body Ready to Conquer the World with the Immune-Boosting Magic of Wheat, Barley, and Oats. These Exceptional Ingredients Strengthen Your Defenses, Ensuring Year-Round Resilience.",
   },
 
   {
     image: ExploreFamily,
     title: "A Sensory Delight",
-    desc: "Beyond taste, our Hot Chocolate Elixir is a sensory delight. The alluring aroma of premium cocoa fills the air, creating an experience that begins before the first sip. The smooth, creamy texture is pure luxury for your senses, leaving you with a warming sensation that lingers long after the last drop is gone.",
+    desc: "Beyond Its Scrumptious Taste, Our Hot Chocolate Elixir Offers a Sensory Extravaganza. The Captivating Aroma of Premium Cocoa Perfumes the Air, Crafting an Experience That Commences Before Your Initial Sip. Its Silky, Creamy Texture Is Pure Sensory Luxury, Leaving You with a Comforting Sensation That Persists Long After the Final Sip.",
   },
   {
     image: ExploreGirlHoldingCup,
     title: "Beyond the Cup - Endless Possibilities",
-    desc: "Unleash your creativity with our versatile Hot Chocolate Elixir. While it's a delight on its own, you can explore endless possibilities. Use it to create delightful desserts, blend it into smoothies, or even enhance your morning oatmeal. Embrace the joy of culinary experimentation.",
+    desc: "Set Your Creativity Free with Our Versatile Hot Chocolate Elixir. While It's a Delight on Its Own, the Possibilities Are Endless. Use It to Craft Delightful Desserts, Incorporate It into Smoothies, or Elevate Your Morning Oatmeal. Embrace the Pleasure of Culinary Exploration.",
   },
   {
     image: ExploreNutsSpill,
     title: "The Ultimate Treat - You Deserve It!",
-    desc: "Whether you seek a moment of comfort on a chilly morning, a well-deserved treat after a long day, or a luxurious experience to share with loved ones, our Heavenly Hot Chocolate Elixir is the ultimate answer. Nourish your body, delight your senses, and embrace the extraordinary",
+    desc: "Whether You Crave a Cozy Moment on a Chilly Morning, a Rewarding Treat after a Long Day, or a Luxurious Experience to Share with Loved Ones, Our Heavenly Hot Chocolate Elixir Is the Ultimate Solution. Nourish Your Body, Delight Your Senses, and Embrace the Extraordinary.",
   },
 ];
 
@@ -154,7 +197,7 @@ export const OurScienceArticlesData = [
     articleNumber: 1,
     articleHeader: "Health Benefits of Dark Cocoa: A Comprehensive Review",
     articleDesc:
-      "This comprehensive review published in the journal Nutrients highlights the various health benefits of dark cocoa, including its rich antioxidant content and potential effects on cardiovascular health.",
+      "This In-Depth Review, Featured in the Journal Nutrients, Sheds Light on the Diverse Health Benefits of Dark Cocoa. It Explores its Abundant Antioxidant Content and Its Possible Impact on Cardiovascular Health.",
     articleLink:
       "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/cocoa-and-health-a-decade-of-research/10E9BE79E5DEFD360C5CD46B92E07414",
     articleImage: OurScienceCocoa,
@@ -164,7 +207,7 @@ export const OurScienceArticlesData = [
     articleHeader:
       "Nutritional Profile and Health Implications of Natural Brown Sugar",
     articleDesc:
-      "A research article from the  Journal of Food Composition and Analysis explores the nutritional profile of natural brown sugar and its  potential health implications, discussing the presence of trace minerals and its impact on glycemic  response.",
+      "In an Insightful Research Article Published in the Journal of Food Composition and Analysis, the Nutritional Profile of Natural Brown Sugar Is Explored, Along with its Potential Health Implications. The Article Discusses the Presence of Trace Minerals and Their Influence on Glycemic Response.",
     articleLink:
       "https://www.sciencedirect.com/science/article/abs/pii/S0308814613015379",
     articleImage: OurScienceSugar,
@@ -173,7 +216,7 @@ export const OurScienceArticlesData = [
     articleNumber: 3,
     articleHeader: "Cocoa and Cardiovascular Health: An Update",
     articleDesc:
-      "This article in the journal Molecules provides an  updated overview of cocoa's impact on cardiovascular health, focusing on its antioxidant properties and  ability to improve vascular function.",
+      "This Article, Featured in the Journal Molecules, Offers an Up-to-Date Overview of Cocoa's Influence on Cardiovascular Health, With Emphasis on its Antioxidant Properties and its Capacity to Enhance Vascular Function.",
     articleLink:
       "https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.108.827022",
     articleImage: OurScienceHeart,
@@ -182,7 +225,7 @@ export const OurScienceArticlesData = [
     articleNumber: 4,
     articleHeader: "The Role of Natural Sweeteners in Promoting a Healthy Diet",
     articleDesc:
-      "A study published in the Journal of  the Academy of Nutrition and Dietetics examines the role of natural sweeteners, including natural brown  sugar, in promoting a healthy diet and their potential benefits over refined sugars.",
+      "A Study Highlighted in the Journal of the Academy of Nutrition and Dietetics Investigates the Role of Natural Sweeteners, Such as Natural Brown Sugar, in Advancing a Healthier Diet and Explores Their Potential Advantages Compared to Refined Sugars.",
     articleLink:
       "https://books.google.co.in/books?hl=en&lr=&id=PxrLBAAAQBAJ&oi=fnd&pg=PP1&dq=brown+sugar+&ots=ZhM3eCxxkJ&sig=7L67nzZ4iMX0C3kA757K3lzx1Sk&redir_esc=y#v=onepage&q=brown%20sugar&f=false",
     articleImage: OurScienceSweetner,
@@ -192,7 +235,7 @@ export const OurScienceArticlesData = [
     articleHeader:
       "Cocoa, Flavonoids, and Cognitive Function: A Systematic Review",
     articleDesc:
-      "This systematic review in the journal Frontiers in Nutrition explores the relationship between cocoa consumption, flavonoids, and  cognitive function, highlighting the potential cognitive benefits of dark cocoa.",
+      "This Systematic Review, Presented in the Journal Frontiers in Nutrition, Explores the Connection Between Cocoa Consumption, Flavonoids, and Cognitive Function. It Emphasizes the Possible Cognitive Advantages of Dark Cocoa.",
     articleLink:
       "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2125.2012.04378.x",
     articleImage: OurScienceSystematic,
@@ -203,31 +246,31 @@ export const WhyUsGridData = [
   {
     title: "Finest Cocoa Beans - The Foundation of Flavor",
     image: WhyUsCocoa,
-    desc: "Our chocolate powder starts with sourcing the finest cocoa beans from the most exceptional plantations worldwide. This dedication to quality ensures that every scoop of our powder is infused with the rich and authentic flavors of pure cocoa, creating an indulgent experience that delights the senses.",
+    desc: "Our Chocolate Powder Begins with the Meticulous Selection of the Finest Cocoa Beans from Exceptional Plantations Across the Globe. This Unwavering Commitment to Quality Ensures that Every Spoonful of Our Powder Is Imbued with the Pure, Authentic Flavors of Cocoa, Resulting in an Indulgent Experience that Truly Delights the Senses.",
   },
   {
     title: "Precise Processing - Retaining the Nutrients",
     image: WhyUsProcessing,
-    desc: "We employ a meticulous processing technique that preserves the natural goodness of cocoa. By carefully controlling the temperature and processing time, our chocolate powder retains its high nutritional value, including antioxidants and essential minerals, ensuring that every serving offers nourishment along with its delightful taste.",
+    desc: "We Employ a Meticulous Processing Technique that Safeguards the Natural Goodness of Cocoa. Through Precise Temperature Control and Careful Processing Times, Our Chocolate Powder Retains its Abundant Nutritional Value, including Antioxidants and Essential Minerals. This Ensures that Each Serving Not Only Offers a Delightful Taste but also Provides Nourishment.",
   },
   {
     title: "Balanced Sweetness - Elevating the Experience",
     image: WhyUsSweetness,
-    desc: "Our special chocolate powder strikes the perfect balance of sweetness, achieved through thoughtful blending of natural sweeteners. We use a combination of unrefined sugars or natural sweeteners to avoid overwhelming sweetness, allowing the rich cocoa flavor to shine through, making it an ideal choice for those who appreciate a more refined taste.",
+    desc: "Our Unique Chocolate Powder Achieves the Ideal Sweetness Balance, Crafted through the Careful Fusion of Natural Sweeteners. We Utilize a Blend of Unrefined Sugars and Natural Sweeteners to Avoid an Overwhelmingly Sweet Taste, Allowing the Rich Cocoa Flavor to Take Center Stage. This Makes It the Perfect Selection for Those Who Relish a More Sophisticated Taste.",
   },
   {
     title: "Versatility - Beyond Just a Beverage",
     image: WhyUsVersatility,
-    desc: "Our chocolate powder is incredibly versatile, making it more than just a hot beverage. While it creates a velvety, decadent hot chocolate, it can also be used to enhance other culinary creations, such as smoothies, desserts, and baked goods, elevating the taste and experience in a myriad of delightful ways.",
+    desc: "Our Chocolate Powder Exhibits Remarkable Versatility, Transforming It Into More Than Just a Hot Beverage. While It Perfectly Crafts a Velvety, Decadent Hot Chocolate, Its Potential Extends to Elevating Other Culinary Creations, Such as Smoothies, Desserts, and Baked Goods. It Enhances the Taste and Experience in Countless Delightful Ways.",
   },
   {
     title: "Crafted with Passion - A Personal Touch",
     image: WhyUsCraft,
-    desc: "What truly sets our special chocolate powder apart is the passion and dedication of our artisans. From the selection of ingredients to the blending process, each step is carried out with care and love for the art of creating the finest chocolate powder possible.",
+    desc: "What Distinguishes Our Special Chocolate Powder Is the Genuine Passion and Dedication of Our Artisans. From the Meticulous Ingredient Selection to the Precise Blending Process, Every Step Is Infused with Care and Love for the Craft of Crafting the Finest Chocolate Powder Imaginable.",
   },
   {
     title: "Sustainable and Ethical Sourcing",
     image: WhyUsSustainable,
-    desc: "We prioritize sustainability and ethical sourcing throughout our supply chain. Our commitment to responsible practices ensures that our chocolate powder not only delivers on taste and quality but also contributes to a better world for cocoa farmers and their communities.",
+    desc: "Sustainability and Ethical Sourcing Stand at the Forefront of Our Supply Chain Priorities. Our Unwavering Dedication to Responsible Practices Ensures that Our Chocolate Powder Not Only Excels in Taste and Quality but Also Plays a Vital Role in Creating a Better World for Cocoa Farmers and Their Communities.",
   },
 ];
