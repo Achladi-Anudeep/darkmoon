@@ -50,9 +50,9 @@
   font-size: 1.4rem;
   color: var(--Pastle);
 }
-#sports > button,
-#brain > button,
-#organic > button {
+#sports > a,
+#brain > a,
+#organic > a {
   margin-top: 1rem;
   padding: 0.5rem 2rem;
   border: none;
@@ -65,9 +65,9 @@
   font-weight: 500;
 }
 
-#brain > button:hover,
-#sports > button:hover,
-#organic > button:hover {
+#brain > a:hover,
+#sports > a:hover,
+#organic > a:hover {
   background-color: white;
   color: black;
 }

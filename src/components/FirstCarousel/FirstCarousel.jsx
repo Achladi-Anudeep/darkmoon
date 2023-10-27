@@ -26,7 +26,14 @@ const FirstCarousel = () => {
             <div id={r.title}>
               <h1>{r.textHead}</h1>
               <h2>{r.textDesc}</h2>
-              <button>Shop now</button>
+
+              <a
+                href="https://www.amazon.in/dp/B0CLVJ6DBQ?ref=myi_title_dp"
+                target="_blank"
+              >
+                {" "}
+                Shop now
+              </a>
             </div>
             <img src={r.imageSource} alt={r.title} className="slide-image" />
           </div>
